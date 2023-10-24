@@ -3,8 +3,8 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { 'APDAdColonyAdapter', },
-		frameworks = { 'AdColony', },
+		staticLibs = { 'APDAdColonyAdapter', 'AdColony' },
+		frameworks = {  },
 		frameworksOptional = { 'EventKit', 'WatchConnectivity', 'Social', },
 	},
 }
